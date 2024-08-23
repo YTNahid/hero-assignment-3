@@ -1,65 +1,64 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en" data-theme='light'>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Google Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind -->
     <link rel="stylesheet" href="./src/output.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fa69f7130e.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="max-w-6xl mx-auto">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+
+<body class="font-manrope">
+    <!-- ---------------------- This is the main Header ---------------------- -->
+
+    <header class="fixed w-full">
+        <div class="max-w-6xl mx-auto">
+            <div class="navbar bg-base-100 p-2.5 pt-7">
+                <div class="navbar-start w-full flex justify-between relative lg:w-1/4">
+                    <div class="static dropdown order-2">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden p-0 border border-border-color rounded-full h-12 w-12 bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content rounded-lg z-[1] mt-3 w-full fixed p-2 shadow bg-accent-color left-0">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Protfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl flex items-cente p-0"><i class="fa-solid fa-arrow-right bg-accent-color rounded-full p-2 -rotate-45"></i><span class="font-extrabold text-3xl text-primary-color">Rinterio</span></a>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
+                <div class="navbar-center hidden lg:flex lg:w-2/4 lg:justify-center">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Protfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
                     </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-end hidden lg:flex lg:w-1/4">
+                    <a class="btn">Button</a>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li>
-                  <details>
-                    <summary>Parent</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a>Item 3</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
-            </div>
-          </div>
+        </div>
     </header>
 </body>
+
 </html>
