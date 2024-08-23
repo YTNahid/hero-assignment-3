@@ -11,22 +11,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!-- Tailwind -->
+    <!-- TailwindCSS -->
     <link rel="stylesheet" href="./src/output.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/fa69f7130e.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope text-sm lg:text-base font-medium">
     <!-- ---------------------- This is the main Header ---------------------- -->
 
-    <header class="fixed w-full">
+    <header class="absolute w-full">
         <div class="max-w-6xl mx-auto">
-            <div class="navbar bg-base-100 p-2.5 pt-7">
+            <div class="navbar bg-base-100 p-2.5 pt-7 bg-transparent">
                 <div class="navbar-start w-full flex justify-between relative lg:w-1/4">
+                    <!-- Mobile Menu Dropdown -->
                     <div class="static dropdown order-2">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden p-0 border border-border-color rounded-full h-12 w-12 bg-white">
+                        <div tabindex="0" role="button"
+                            class="btn btn-ghost lg:hidden p-0 border border-border-color rounded-full h-12 w-12 bg-white">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -42,8 +44,11 @@
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl flex items-cente p-0"><i class="fa-solid fa-arrow-right bg-accent-color rounded-full p-2 -rotate-45"></i><span class="font-extrabold text-3xl text-primary-color">Rinterio</span></a>
+                    <a class="btn btn-ghost text-xl flex items-cente p-0"><i
+                            class="fa-solid fa-arrow-right bg-accent-color rounded-full p-2 -rotate-45"></i><span
+                            class="font-extrabold text-3xl text-primary-color">Rinterio</span></a>
                 </div>
+                <!-- PC Menu -->
                 <div class="navbar-center hidden lg:flex lg:w-2/4 lg:justify-center">
                     <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
@@ -59,6 +64,21 @@
             </div>
         </div>
     </header>
+
+    <!-- ---------------------- This is the Main Body ---------------------- -->
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-bg-color to-white w-full flex justify-center py-32">
+        <div class="max-w-6xl flex flex-col p-2.5 items-center gap-5">
+            <img src="./assets/banner.png" alt="Banner" class="w-4/5">
+            <h1 class="text-3xl text-center font-extrabold">A barn house of this design  has a striking appearance</h1>
+            <p class="text-text-color-dark text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <a href="#">
+                <button class="bg-accent-color bg-opacity-50 rounded-full py-3 px-6 text-lg font-bold flex items-center justify-center gap-2 lg:w-auto">View Details <i class="fa-solid fa-arrow-right bg-accent-color rounded-full p-2 -rotate-45"></i></button>
+            </a>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
