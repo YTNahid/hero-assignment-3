@@ -84,10 +84,11 @@
 
     <!-- About Us Section -->
     <section class="bg-bg-color w-full flex justify-center py-8">
-        <div class="max-w-6xl w-full flex flex-col gap-5 lg:flex-row lg:gap-0 lg:items-center">
+        <div class="max-w-6xl w-full flex flex-col gap-5 lg:flex-row lg:gap-0 lg:items-end">
             <!-- About -->
             <div class="flex flex-col gap-5 p-2.5 lg:w-1/2">
                 <div class="flex flex-col items-center gap-4 lg:items-start">
+                    <img src="./assets/Vector.png" alt="Arrow" class="hidden lg:block -ml-12">
                     <h3
                         class="flex items-center gap-2 text-primary-color text-base font-bold bg-white rounded-full px-4 py-2">
                         <i class="fa-solid fa-arrow-right"></i>About Us
@@ -104,7 +105,7 @@
                         <img src="./assets/commercial.png" alt="Commercial" class="w-10 max-w-screen-2xl lg:w-16">
                     </div>
                     <div class="flex flex-col gap-3 text-base">
-                        <h4 class="font-bold">Commercial</h4>
+                        <h4 class="font-bold lg:text-xl">Commercial</h4>
                         <p class="text-text-color-light">A perfect fusion of old-world charm and contemporary elegance,
                             this barn house showcases a seamless mix of weathered wood and refined metal accents.</p>
                     </div>
@@ -114,7 +115,7 @@
                         <img src="./assets/residential.png" alt="Commercial" class="w-10 max-w-screen-2xl lg:w-16">
                     </div>
                     <div class="flex flex-col gap-3 text-base">
-                        <h4 class="font-bold">Residential</h4>
+                        <h4 class="font-bold lg:text-xl">Residential</h4>
                         <p class="text-text-color-light">Step into a home that perfectly balances rustic charm with
                             modern elegance, combining the warmth of aged wood with the sleekness of metal finishes.</p>
                     </div>
@@ -130,8 +131,8 @@
     </section>
 
     <!-- Our Work Process Section -->
-    <section class="bg-bg-color w-full flex justify-center py-8">
-        <div class="flex flex-col gap-5 p-2.5">
+    <section class="bg-bg-color w-full flex justify-center py-8 lg:py-16">
+        <div class="max-w-6xl flex flex-col gap-7 px-2.5">
             <!-- Intro -->
             <div class="flex flex-col items-center gap-4">
                 <h3
@@ -146,8 +147,27 @@
                 </p>
             </div>
             <!-- Icon Boxes -->
-            <div class="flex flex-col">
-
+            <div class="flex flex-col gap-y-4 lg:flex-row lg:space-x-4">
+                <div class="flex flex-col p-6 rounded-2xl gap-3 bg-[#E7C1D3]">
+                    <img src="./assets/concept.png" alt="Commercial" class="w-12 max-w-screen-2xl">
+                    <h4 class="font-bold text-xl">Concept</h4>
+                    <p class="text-text-color-dark">Our process begins with a thorough exploration of your ideas and vision. We work closely with you to create a unique concept.</p>
+                </div>
+                <div class="flex flex-col p-6 rounded-2xl gap-3 bg-[#f0da6e]">
+                    <img src="./assets/flow-chart.png" alt="Commercial" class="w-12 max-w-screen-2xl">
+                    <h4 class="font-bold text-xl">Design Process</h4>
+                    <p class="text-text-color-dark">During the design phase, we translate your concept into detailed plans. Our team combines creativity with technical expertise.</p>
+                </div>
+                <div class="flex flex-col p-6 rounded-2xl gap-3 bg-[#a4dac3]">
+                    <img src="./assets/vision.png" alt="Commercial" class="w-12 max-w-screen-2xl">
+                    <h4 class="font-bold text-xl">Supervision</h4>
+                    <p class="text-text-color-dark">We ensure that every detail of your project is executed to the highest standards. Our team closely supervises each stage of construction.</p>
+                </div>
+                <div class="flex flex-col p-6 rounded-2xl gap-3 bg-[#77aaea]">
+                    <img src="./assets/budget-planning.png" alt="Commercial" class="w-12 max-w-screen-2xl">
+                    <h4 class="font-bold text-xl">Budget Planning</h4>
+                    <p class="text-text-color-dark">Our budget planning process ensures that your project is completed within your financial framework, without compromising on quality</p>
+                </div>
             </div>
         </div>
     </section>
