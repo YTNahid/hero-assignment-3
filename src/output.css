@@ -1831,6 +1831,10 @@ html {
   max-width: 56rem;
 }
 
+.max-w-\[376px\] {
+  max-width: 376px;
+}
+
 .-rotate-45 {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1906,6 +1910,10 @@ html {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-2xl {
@@ -2248,6 +2256,10 @@ html {
   color: rgb(73 73 73 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-90:hover {
+  opacity: 0.9;
+}
+
 @media (min-width: 1024px) {
   .lg\:order-3 {
     order: 3;
@@ -2373,6 +2385,46 @@ html {
 
   .lg\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .lg\:w-\[calc\(25\%-48px\/3\)\] {
+    width: calc(25% - 48px / 3);
+  }
+
+  .lg\:w-\[calc\(50\%-48px\/3\)\] {
+    width: calc(50% - 48px / 3);
+  }
+
+  .lg\:w-\[calc\(25\%-20px\)\] {
+    width: calc(25% - 20px);
+  }
+
+  .lg\:w-\[calc\(50\%-20px\)\] {
+    width: calc(50% - 20px);
+  }
+
+  .lg\:w-\[calc\(25\%-16px\)\] {
+    width: calc(25% - 16px);
+  }
+
+  .lg\:w-\[calc\(50\%-16px\)\] {
+    width: calc(50% - 16px);
+  }
+
+  .lg\:w-\[calc\(25\%-15px\)\] {
+    width: calc(25% - 15px);
+  }
+
+  .lg\:w-\[calc\(50\%-15px\)\] {
+    width: calc(50% - 15px);
+  }
+
+  .lg\:w-\[calc\(25\%-12px\)\] {
+    width: calc(25% - 12px);
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
   }
 
   .lg\:flex-row {
