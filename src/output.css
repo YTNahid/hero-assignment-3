@@ -2299,6 +2299,30 @@ html {
     width: calc(50% - 24px);
   }
 
+  .lg\:w-\[22\%\] {
+    width: 22%;
+  }
+
+  .lg\:w-\[24\%\] {
+    width: 24%;
+  }
+
+  .lg\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .lg\:w-\[47\%\] {
+    width: 47%;
+  }
+
+  .lg\:w-\[19\%\] {
+    width: 19%;
+  }
+
+  .lg\:w-\[48\%\] {
+    width: 48%;
+  }
+
   .lg\:max-w-full {
     max-width: 100%;
   }
