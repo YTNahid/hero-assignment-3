@@ -2173,6 +2173,24 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:bg-accent-color:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(171 239 95 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-none:hover {
+  background-image: none;
+}
+
+.hover\:font-semibold:hover {
+  font-weight: 600;
+}
+
+.hover\:text-text-color-dark:hover {
+  --tw-text-opacity: 1;
+  color: rgb(73 73 73 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:my-6 {
     margin-top: 1.5rem;
@@ -2236,6 +2254,22 @@ html {
     width: calc(50% - 12px);
   }
 
+  .lg\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .lg\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .lg\:w-\[45\%\] {
+    width: 45%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -2278,6 +2312,10 @@ html {
 
   .lg\:gap-8 {
     gap: 2rem;
+  }
+
+  .lg\:gap-4 {
+    gap: 1rem;
   }
 
   .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {

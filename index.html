@@ -24,7 +24,7 @@
     <header class="absolute w-full">
         <div class="max-w-6xl mx-auto">
             <div class="navbar bg-base-100 p-2.5 pt-7 bg-transparent">
-                <div class="navbar-start w-full flex justify-between relative lg:w-1/4">
+                <div class="navbar-start w-full flex justify-between relative lg:w-[20%]">
                     <!-- Mobile Menu Dropdown -->
                     <div class="static dropdown order-2">
                         <div tabindex="0" role="button"
@@ -49,17 +49,24 @@
                             class="font-extrabold text-3xl text-primary-color">Rinterio</span></a>
                 </div>
                 <!-- PC Menu -->
-                <div class="navbar-center hidden lg:flex lg:w-2/4 lg:justify-center">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Protfolio</a></li>
-                        <li><a href="#blogs">Blogs</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                <div class="navbar-center hidden lg:flex lg:w-[45%] lg:justify-center">
+                    <ul class="menu menu-horizontal px-1 text-base text-text-color-light">
+                        <li class="hover:text-text-color-dark hover:font-semibold"><a href="#home">Home</a></li>
+                        <li class="hover:text-text-color-dark hover:font-semibold"><a href="#services">Services</a></li>
+                        <li class="hover:text-text-color-dark hover:font-semibold"><a href="#portfolio">Protfolio</a></li>
+                        <li class="hover:text-text-color-dark hover:font-semibold"><a href="#blogs">Blogs</a></li>
+                        <li class="hover:text-text-color-dark hover:font-semibold"><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end hidden lg:flex lg:w-1/4">
-                    <a class="btn">Button</a>
+                <div class="navbar-end hidden lg:flex lg:w-[35%] lg:gap-4">
+                    <a href="#" class="border border-border-color rounded-full h-12 w-12 bg-white hover:bg-accent-color flex items-center justify-center text-text-color-light"><i class="fa-solid fa-magnifying-glass "></i></a>
+                    <a href="#" class="border border-border-color rounded-full h-12 w-12 bg-white hover:bg-accent-color flex items-center justify-center text-text-color-light"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#">
+                        <button
+                            class="bg-accent-color text-[#1C1C1C] rounded-full py-3 px-6 text-lg font-bold flex items-center justify-center gap-2 lg:w-auto">Book
+                            Consult <i
+                                class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full p-2 -rotate-45 text-white"></i></button>
+                    </a>
                 </div>
             </div>
         </div>
